@@ -1,0 +1,394 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.header {
+  gap: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-button {
+  display: none;
+}
+
+.donating-text {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  font-family: "Inter", serif;
+}
+
+@media only screen and (max-width: 768px) {
+  .navigation {
+    display: none;
+  }
+
+  .menu-button {
+    display: block;
+  }
+
+  .search-button {
+    margin-left: auto;
+  }
+}
+
+.iphone16-pro {
+  padding-top: 50px;
+  width: 100vw;
+  height: 580px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("./image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.ip16pro-1 {
+  font-size: 52px;
+  font-weight: 600;
+  font-family: "Inter", serif;
+  text-align: center;
+  color: #f5f5f7;
+}
+
+.helloai-1 {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  color: #f5f5f7;
+  text-align: center;
+  font-family: "Inter", serif;
+}
+
+.learnmorebutton {
+  background-color: #0071e3;
+  border: none;
+  border-radius: 999px;
+  padding: 10px 16px;
+}
+
+.buybutton {
+  background-color: inherit;
+  border: solid #2997ff;
+  color: #2997ff;
+  padding-top: 10px;
+  padding-right: 15px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  border-radius: 999px;
+}
+
+.iphone16pro-2 {
+  width: 100vw;
+  height: 580px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("./applepic2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.ip16 {
+  font-size: 52px;
+  font-weight: 600;
+  text-align: center;
+  color: #f5f5f7;
+  font-family: "Inter", serif;
+}
+
+.helloai-2 {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  color: #f5f5f7;
+  text-align: center;
+  font-family: "Inter", serif;
+}
+
+.learnmorebutton-2 {
+  background-color: #ffffff;
+  border-radius: 999px;
+  padding-top: 12px;
+  padding-right: 20px;
+  padding-bottom: 12px;
+  padding-left: 10px;
+}
+
+.buybutton-2 {
+  background-color: inherit;
+  border: solid #ffffff;
+  color: #ffffff;
+  padding-top: 10px;
+  padding-right: 15px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  border-radius: 999px;
+}
+
+.giftmagic {
+  width: 100vw;
+  height: 580px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  padding-bottom: 50px;
+  background: url("./Figure\ \(2\).png") center/cover;
+}
+
+.giftmagictext {
+  font-size: 52px;
+  font-weight: 600;
+  font-family: "Inter", serif;
+}
+
+.maketheirholidaywct {
+  font-size: 24px;
+  font-weight: 400;
+  font-family: "Inter", serif;
+}
+
+.shopgifts {
+  background-color: #0071e3;
+  border-radius: 999px;
+  border: none;
+  padding: 12px 20px;
+  color: white;
+}
+
+.latestproductcard {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 580px);
+}
+
+.child-1 {
+  background-image: url("./Figure\ \(3\).png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.child-2 {
+  background-image: url("./Figure\ \(4\).png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.child-3 {
+  background-image: url("./Figure\ \(5\).png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.child-4 {
+  background-image: url("./Figure\ \(6\).png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.child-5 {
+  background-image: url("./Figure\ \(7\).png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.child-6 {
+  background-image: url("./Figure\ \(8\).png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.two-faster-doesitall {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Inter", serif;
+  color: #1d1d1f;
+}
+
+.learnmorebutton-3 {
+  background-color: #0071e3;
+  border: none;
+  border-radius: 999px;
+  padding: 10px 16px;
+  color: white;
+}
+
+.buybutton-3 {
+  background-color: inherit;
+  border: solid #2997ff;
+  color: #2997ff;
+  padding-top: 10px;
+  padding-right: 15px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  border-radius: 999px;
+}
+
+.airpodspro {
+  color: #f5f5f7;
+  font-family: "Inter", serif;
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.now-with-hearing-aid-feature2 {
+  color: #f5f5f7;
+  font-family: "Inter", serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+.learnmorebutton-4 {
+  background-color: #0071e3;
+  border: none;
+  border-radius: 999px;
+  padding: 10px 16px;
+  color: white;
+}
+
+.buybutton-4 {
+  background-color: inherit;
+  border: solid #2997ff;
+  color: #2997ff;
+  padding-top: 10px;
+  padding-right: 15px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  border-radius: 999px;
+}
+
+.series-10 {
+  font-family: "Inter", serif;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.thinstant-classic {
+  font-family: "Inter", serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.learnmorebutton-5 {
+  background-color: #0071e3;
+  border: none;
+  border-radius: 999px;
+  padding: 10px 16px;
+  color: white;
+}
+
+.buybutton-5 {
+  background-color: inherit;
+  border: solid #2997ff;
+  color: #2997ff;
+  padding-top: 10px;
+  padding-right: 15px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  border-radius: 999px;
+}
+
+.macbook-air {
+  font-family: "Inter", serif;
+  font-weight: 600;
+  font-size: 36px;
+}
+
+.leanmeanm3machine {
+  font-family: "Inter", serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.learnmorebutton-6 {
+  background-color: #0071e3;
+  border: none;
+  border-radius: 999px;
+  padding: 10px 16px;
+  color: white;
+}
+
+.buybutton-6 {
+  background-color: inherit;
+  border: solid #2997ff;
+  color: #2997ff;
+  padding-top: 10px;
+  padding-right: 15px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  border-radius: 999px;
+}
+
+.getcredit {
+  font-family: "Inter", serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.getyourestimate {
+  background-color: #0071e3;
+  border: none;
+  border-radius: 999px;
+  padding: 16px 20px;
+  column-rule-color: white;
+}
+
+.cash-back {
+  font-family: "Inter", serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.learnmorebutton-7 {
+  background-color: #0071e3;
+  border: none;
+  border-radius: 999px;
+  padding: 10px 16px;
+  color: white;
+}
+
+.applybutton {
+  background-color: inherit;
+  border: solid #2997ff;
+  color: #2997ff;
+  padding-top: 10px;
+  padding-right: 16px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  border-radius: 999px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  gap: 20px;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+}
+
+.item {
+  width: 1250px;
+  height: 668px;
+  flex-shrink: 0;
+  background-image: var(--background-image);
+}
