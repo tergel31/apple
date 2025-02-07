@@ -4,6 +4,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+
 }
 .header {
   gap: 20px;
@@ -70,9 +71,9 @@
 
 .learnmorebutton {
   background-color: #0071e3;
-  border: none;
-  border-radius: 999px;
-  padding: 10px 16px;
+    border: none;
+    border-radius: 999px;
+    padding: 10px 16px;
 }
 
 .buybutton {
@@ -116,12 +117,14 @@
 }
 
 .learnmorebutton-2 {
-  background-color: #ffffff;
+   background-color: white;
+  border: none;
   border-radius: 999px;
-  padding-top: 12px;
-  padding-right: 20px;
-  padding-bottom: 12px;
-  padding-left: 10px;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 999px;
+  padding: 12px 20px;
+   
 }
 
 .buybutton-2 {
@@ -175,61 +178,73 @@
 .child-1 {
   background-image: url("./Figure\ \(3\).png");
   display: flex;
-  justify-content: center;
+  text-align: center;
   align-items: center;
+  flex-direction: column;
 }
 
 .child-2 {
   background-image: url("./Figure\ \(4\).png");
   display: flex;
-  justify-content: center;
+  text-align: center;
   align-items: center;
+  flex-direction: column;
 }
 
 .child-3 {
   background-image: url("./Figure\ \(5\).png");
   display: flex;
-  justify-content: center;
+  text-align: center;
   align-items: center;
+  flex-direction: column;
 }
 
 .child-4 {
   background-image: url("./Figure\ \(6\).png");
   display: flex;
-  justify-content: center;
+  text-align: center;
   align-items: center;
+  flex-direction: column;
 }
 
 .child-5 {
   background-image: url("./Figure\ \(7\).png");
   display: flex;
-  justify-content: center;
+  text-align: center;
   align-items: center;
+  flex-direction: column;
 }
 
 .child-6 {
   background-image: url("./Figure\ \(8\).png");
   display: flex;
-  justify-content: center;
+  text-align: center;
   align-items: center;
+  flex-direction: column;
 }
 
-.two-faster-doesitall {
+.two-faster-doesit-all {
   font-size: 18px;
   font-weight: 400;
   font-family: "Inter", serif;
   color: #1d1d1f;
 }
+ .button-boss {
+  display: flex;
+  flex-direction: row;
+  column-gap: 16px;
+ }
 
-.learnmorebutton-3 {
-  background-color: #0071e3;
-  border: none;
-  border-radius: 999px;
-  padding: 10px 16px;
-  color: white;
+.button-learnmore {
+    cursor: pointer;
+   background-color: #0071e3;
+   border: none;
+   border-radius: 999px;
+   padding: 10px 16px;
+   color: white;
 }
 
-.buybutton-3 {
+.button-buy {
   background-color: inherit;
   border: solid #2997ff;
   color: #2997ff;
@@ -383,12 +398,25 @@
   gap: 20px;
   width: 100vw;
   display: flex;
+  overflow-x: scroll;
   align-items: center;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
 }
 
 .item {
   width: 1250px;
   height: 668px;
   flex-shrink: 0;
+  scroll-snap-align: center;
   background-image: var(--background-image);
+}
+
+.bullet {
+  width: 8px;
+  height: 8px;
+  opacity: 0.75;
+  margin-inline: 7px;
+  border-radius: 50%;
+  background-color: #0000006b;
 }
